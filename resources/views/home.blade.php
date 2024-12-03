@@ -61,11 +61,7 @@
                                                     </div>
                                                     <img src="{{ asset('uploads/' . $book->file_path) }}" class="img-fluid" alt="Image">
                                                     <div class="mask-icon">
-                                                        <ul>
-                                                            <li><a href="shop-detail.html" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                                            <li><a href="shop-detail.html" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                                            <li><a href="shop-detail.html" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                                                        </ul>
+                                                        
                                                         <a class="cart" href="{{route('shop-detail',$book->id)}}">Details</a>
                                                     </div>
                                                 </div>
